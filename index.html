@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jeongho Kim</title>
+    <meta name="description" content="Jeongho Kim portfolio and CV" />
+    <link rel="stylesheet" href="./assets/css/site.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar">
+        <div class="avatar">
+          <img src="./imgs/JeonghoKim.JPG" alt="Jeongho Kim" />
+        </div>
+        <h1>Jeongho Kim</h1>
+        <div class="meta">
+          <span class="line"
+            >M.S. Student, Applied Artificial Intelligence</span
+          >
+          <span class="line">Data Science Lab (DSLAB), Myongji University</span>
+          <br />
+          <span class="line"
+            >Knowledge Graph / Graph Representation Learning</span
+          >
+        </div>
+        <div class="links">
+          <a
+            href="./JeonghoKim_portfolio.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Portfolio</a
+          >
+          |
+          <a
+            href="./JeonghoKim_cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CV</a
+          >
+        </div>
+        <nav class="quicknav" aria-label="Table of contents">
+          <div class="toc-title">Contents</div>
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#cv">CV</a>
+        </nav>
+        <div class="icon-row">
+          <a
+            href="https://github.com/hou27"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            >GH</a
+          >
+          <a
+            href="https://hou27.tistory.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Blog"
+            >BL</a
+          >
+          <a href="mailto:jeongho@mju.ac.kr" aria-label="Email">MAIL</a>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="section" id="about">
+          <h2>Welcome</h2>
+          <p>
+            안녕하세요. 저는 <strong>Knowledge Graph</strong>와
+            <strong>Graph Representation Learning</strong>을 통해 데이터의
+            관계를 모델링하고, 도메인 문제를 구조화하여 해결하는 연구/개발을
+            하고 있습니다. 현재는 Knowledge Graph의 본질적 한계를 보완하기 위한
+            <strong>Continual Knowledge Graph Embedding</strong> 및
+            <strong>Inductive Learning</strong> 관련 연구를 진행하고 있습니다.
+          </p>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Contact</h3>
+              <div class="plain-table">
+                <div class="row">
+                  <div class="k">Email</div>
+                  <div>jeongho@mju.ac.kr</div>
+                </div>
+                <div class="row">
+                  <div class="k">Affiliation</div>
+                  <div>Data Science Lab (DSLAB), Myongji University</div>
+                </div>
+                <div class="row">
+                  <div class="k">GitHub</div>
+                  <div>
+                    <a
+                      href="https://github.com/hou27"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >https://github.com/hou27</a
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="k">Blog</div>
+                  <div>
+                    <a
+                      href="https://hou27.tistory.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >https://hou27.tistory.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h3>Research Interests</h3>
+              <ul>
+                <li>Graph Representation Learning</li>
+                <li>Knowledge Graph</li>
+                <li>Inductive & Continual Learning</li>
+                <li>
+                  Knowledge Graph Completion / Drug Discovery applications
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="news">
+          <h2>News</h2>
+          <ul class="news-list">
+            <li>
+              [Jan. 2026]
+              <strong>Continual Knowledge Graph Embedding (CKGE)</strong> 연구
+              진행 중 (가설 분리, ablation 및 regularization 설계/실험 단계,
+              현재 미제출 상태).
+            </li>
+            <li>
+              [2025] 석사우수장학금(이공계) 수혜
+              <strong>(과학기술정보통신부 & 한국장학재단, ₩5,000,000)</strong>
+            </li>
+            <li>
+              [2025] KG 기반 drug discovery 연구 (Bioinformatics 및 IEEE JBHI
+              submission 진행)
+            </li>
+            <li>[2025] ReCDAP accepted to <strong>SIGIR 2025</strong>.</li>
+            <li>
+              [2023] <strong>GDSC Solution Challenge Global Top 100</strong>
+              (Guess Me! 프로젝트)
+            </li>
+          </ul>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="research">
+          <h2>Research</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">RESEARCH</span>
+                <div class="preview">
+                  <div class="ph-title">CKGE</div>
+                  <div class="ph-sub">Continual Knowledge Graph Embedding</div>
+                  <div class="ph-slot">Add image later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">
+                  Continual Knowledge Graph Embedding (CKGE)
+                </div>
+                <div class="topic-chips">
+                  <span class="topic-chip">Continual Learning</span>
+                  <span class="topic-chip">KGE</span>
+                  <span class="topic-chip">Knowledge Graph</span>
+                </div>
+                <div class="meta">Ongoing Research | Not submitted</div>
+                <div class="desc">
+                  시간에 따라 지식은 필연적으로 추가되기 때문에 과거 지식 보존과
+                  신규 정보 적응의 균형을 맞추는 Continual KGE 학습 전략을
+                  설계하고 있습니다.
+                </div>
+                <ul>
+                  <li>
+                    지속 업데이트되는 KG에서 forgetting vs adaptation 균형
+                    문제를 다룸
+                  </li>
+                  <li>
+                    H1(엔티티) / H2(관계) 가설을 분리해 간섭을 줄이는 구조 설계
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PAPER</span>
+                <div class="preview">
+                  <div class="ph-title">ReCDAP Preview</div>
+                  <div class="ph-sub">
+                    Few-shot KGC / Diffusion-based approach
+                  </div>
+                  <div class="ph-slot">Add figure/GIF later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">
+                  ReCDAP: Relation-based Conditional Diffusion with Attention
+                  Pooling for Few-Shot Knowledge Graph Completion
+                </div>
+                <div class="venue-chips">
+                  <span class="venue-chip major">SIGIR 2025</span>
+                  <span class="venue-chip status">Top-tier</span>
+                </div>
+                <div class="meta">J. Kim, C. Heo, J. Jung</div>
+                <div class="desc">
+                  Few-shot KGC에서 관계 기반 조건부 diffusion과 attention
+                  pooling을 결합하여 양/음 분포를 명시적으로 반영하는 접근.
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PAPER</span>
+                <div class="preview">
+                  <div class="ph-title">Drug Discovery KG Research</div>
+                  <div class="ph-sub">
+                    Knowledge augmentation / Inductive GNN
+                  </div>
+                  <div class="ph-slot">Add publication figure later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">KG for Drug Discovery (2025)</div>
+                <div class="topic-chips">
+                  <span class="topic-chip">Drug Discovery</span>
+                  <span class="topic-chip">Knowledge Graph</span>
+                  <span class="topic-chip">Inductive GNN</span>
+                </div>
+                <div class="venue-chips">
+                  <span class="venue-chip journal">Bioinformatics</span>
+                  <span class="venue-chip submission">Sub.</span>
+                  <span class="venue-chip journal">IEEE JBHI</span>
+                  <span class="venue-chip submission">Sub.</span>
+                </div>
+                <div class="meta">
+                  2 submissions | Bioinformatics (J. Kim, 1st author) / IEEE
+                  JBHI (H. Kwon, 1st author; J. Kim, 2nd author)
+                </div>
+                <div class="desc">
+                  Drug discovery 도메인에서 KG 기반 표현 학습/추론을 다루는 두 편의
+                  별도 연구를 진행 및 제출 중입니다.
+                </div>
+                <ul>
+                  <li>
+                    <strong>Bioinformatics (Sub., 1저자)</strong>:
+                    <em
+                      >Leveraging Large Biochemical Knowledge Graph for Knowledge
+                      Augmentation</em
+                    >
+                    <br />
+                    구축 비용이 큰 생화학 지식그래프의 불완전성을 보완하고, 기존
+                    KG에 존재하지 않는 Drug/Protein 등 개체에 대해 local feature
+                    기반으로 의미적 연결 정보가 담긴 임베딩을 계산하는
+                    파이프라인을 설계하는 연구입니다.
+                  </li>
+                  <li>
+                    <strong>IEEE JBHI (Sub., 2저자)</strong>:
+                    <em
+                      >Cold-start Drug-Target Interaction Prediction on
+                      Knowledge Graphs with Multi-view Fusion</em
+                    >
+                    <br />
+                    지식그래프 기반 multi-view fusion을 통해 cold-start
+                    drug-target interaction prediction 성능 향상을 목표로 한
+                    연구입니다.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PAPER</span>
+                <div class="preview">
+                  <div class="ph-title">Recommendation Research Preview</div>
+                  <div class="ph-sub">
+                    Sampling strategy / Heterogeneous graph
+                  </div>
+                  <div class="ph-slot">Add figure later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">
+                  The recommendation systems based on the enhancement of the
+                  implicit and explicit sampling
+                </div>
+                <div class="meta">
+                  ICNGC 2024 | Conference Paper | 2024.07-2024.08
+                </div>
+                <ul>
+                  <li>Explicit/Implicit data 처리를 위한 sampling strategy</li>
+                  <li>
+                    Heterogeneous graph 메타 경로 기반 message passing framework
+                  </li>
+                  <li>Pairwise ranking accuracy 평가 지표 도입</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PAPER</span>
+                <div class="preview">
+                  <div class="ph-title">Deep GAT Model Preview</div>
+                  <div class="ph-sub">
+                    Over-smoothing / over-squashing mitigation
+                  </div>
+                  <div class="ph-slot">Add diagram later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">
+                  Deep Graph Attention Networks 구조의 분류 성능 향상을 위한
+                  모델
+                </div>
+                <div class="venue-chips">
+                  <span class="venue-chip">KIISE 2024</span>
+                  <span class="venue-chip">Conference Paper</span>
+                </div>
+                <div class="meta">2024.03-2024.05</div>
+                <ul>
+                  <li>Deep GNN 구조의 성능 향상 문제에 초점</li>
+                  <li>Over-smoothing, over-squashing 해결 접근 제안</li>
+                  <li>
+                    Initial residual connection + Random walk with restart 통합
+                  </li>
+                </ul>
+              </div>
+            </article> -->
+          </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="projects">
+          <h2>Projects</h2>
+          <div class="cards">
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">Calabi</div>
+                  <div class="ph-sub">
+                    Calendar text -> Personal Knowledge Graph
+                  </div>
+                  <div class="ph-slot">Add architecture / demo image</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">
+                  Calabi: Personal Calendar Log to Personal Knowledge Graph
+                </div>
+                <div class="meta">
+                  Knowledge Graph | Ontology Engineering | Backend + ML/LLM
+                  Integration
+                </div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/Calabi-Yau-Ontology"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repo</a
+                  >
+                </div>
+                <ul>
+                  <li>
+                    NER -> canonicalization -> graph load -> taxonomy
+                    classification 파이프라인
+                  </li>
+                  <li>
+                    Neo4j 기반 데이터 그래프와 CQ 기반 ontology/taxonomy 운영
+                    구조
+                  </li>
+                  <li>
+                    High-confidence auto + human review (unclassified queue)
+                    운영 모델
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">CINEMATE</div>
+                  <div class="ph-sub">Graph-based movie recommendation</div>
+                  <div class="ph-slot">Add recommendation UI</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">CINEMATE</div>
+                <div class="meta">협업 프로젝트 | 2024.05.11 ~ 2024.08.10</div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/movie_recommendation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repo</a
+                  >
+                </div>
+                <ul>
+                  <li>IMDB/TMDB 기반 영화 정보 수집 및 초기화</li>
+                  <li>그래프 기반 추천 시스템 설계 (GCN + MLP)</li>
+                  <li>서비스 이용 데이터(좋아요/관심없음) 반영</li>
+                  <li>Cold Start 문제를 고려한 점수 산출 설계</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">Quickchive</div>
+                  <div class="ph-sub">
+                    Scrap service backend / infra / automation
+                  </div>
+                  <div class="ph-slot">Add service screenshot</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">Quickchive</div>
+                <div class="meta">
+                  협업 프로젝트 | 2022.03.07 ~ 2023.12.31 | 더 편한 스크랩
+                  서비스
+                </div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/Quickchive/quickchive-backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repo</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/Quickchive/quickchive-backend/blob/master/.github/workflows/ci-cd.yml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >CI/CD</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/Quickchive/quickchive-backend/blob/master/Wiki/DB_Backup.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DB Backup</a
+                  >
+                </div>
+                <ul>
+                  <li>
+                    Google/Kakao OAuth 로그인, Cron task 기반 알람/DB 백업
+                    자동화
+                  </li>
+                  <li>
+                    AWS Route53 + ALB + EC2 인프라 구성, GitHub Actions CI/CD
+                  </li>
+                  <li>
+                    Docker Compose로 NestJS + PostgreSQL + Redis 다중 컨테이너
+                    운영
+                  </li>
+                  <li>
+                    NestJS Interceptor 적용, TypeORM distinct query 관련 N+1
+                    개선
+                  </li>
+                  <li>OpenAI API 기반 자동 카테고리 추천 기능 구현</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">TOGEDONG</div>
+                  <div class="ph-sub">Real-time exercise competition game</div>
+                  <div class="ph-slot">Add gameplay screenshot</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">TOGEDONG</div>
+                <div class="meta">협업 프로젝트 | 2023.09.11 ~ 2023.12.12</div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/mju-KyungDongWonJeong/Togedong-ml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Repo</a
+                  >
+                </div>
+                <ul>
+                  <li>
+                    BlazePose 기반 신체 좌표 추출 및 관절 각도 계산으로 운동
+                    횟수 카운트
+                  </li>
+                  <li>푸시업/스쿼트 실시간 경쟁 시스템</li>
+                  <li>Docker 기반 AWS EC2 배포, 프론트엔드와 소켓 통신</li>
+                  <li>좌표 신뢰도 임계값 도입으로 비정상 카운트 문제 개선</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">Guess Me! (friend & family)</div>
+                  <div class="ph-sub">Google Solution Challenge project</div>
+                  <div class="ph-slot">Add app screenshot / flow image</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">Guess Me! (friend & family)</div>
+                <div class="venue-chips">
+                  <span class="venue-chip major"
+                    >GDSC Solution Challenge Top 100</span
+                  >
+                  <span class="venue-chip status">Google</span>
+                </div>
+                <div class="meta">
+                  협업 프로젝트 | 2023.01.24 ~ 2023.06.04 | Google Solution
+                  Challenge Global Top 100
+                </div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/GUESS-ME-GDSC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Guess Me</a
+                  >
+                </div>
+                <ul>
+                  <li>
+                    기억력 감퇴로 인해 소중한 사람들을 잊는 문제 해결을 위한 앱
+                    서비스
+                  </li>
+                  <li>안드로이드 1명, 백엔드 2명(본인) 팀 구성</li>
+                  <li>
+                    손글씨 입력 기반 퀴즈형 서비스와 OpenAI API 기반 유연한 정답
+                    판별 로직 구현
+                  </li>
+                  <li>
+                    전문가 피드백을 반영해 Siamese Network 기반 필체 변화 감지
+                    및 보호자 알림 기능 고도화
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="preview-wrap">
+                <span class="badge">PROJECT</span>
+                <div class="preview project">
+                  <div class="ph-title">
+                    ForeStore / MBTI / blockchain_go / 써핑
+                  </div>
+                  <div class="ph-sub">Additional project previews</div>
+                  <div class="ph-slot">Add previews per project later</div>
+                </div>
+              </div>
+              <div>
+                <div class="title">Additional Projects</div>
+                <div class="links">
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/forestore_client"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >ForeStore Web</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/mock_mart_data"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >ForeStore Data</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://youtu.be/97iRtm13fLo?si=HkkEpA9JKaOw5FaR"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >ForeStore Demo</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/mbti_frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >MBTI Frontend</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/mbti_backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >MBTI Backend</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://github.com/hou27/blockchain_go"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >blockchain_go</a
+                  >
+                  <a
+                    class="btn"
+                    href="https://roasted-hacksaw-9ca.notion.site/Project-Surfing-1bf8463ce353804ea9bfe8e2e7815317?pvs=4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >써핑</a
+                  >
+                </div>
+                <ul>
+                  <li>
+                    <strong>ForeStore</strong>: 재고 소진 시기 예측 웹 서비스
+                    (명지대 창의적 SW 프로그램 경진대회 대상)
+                  </li>
+                  <li>
+                    <strong>MBTI Others</strong>: GraphQL & NestJS API,
+                    PostgreSQL, JWT refresh token 기반 sliding session, OAuth
+                    적용
+                  </li>
+                  <li>
+                    <strong>blockchain_go</strong>: Go 기반 블록체인 메인넷 구현
+                    실습 (PoW, BoltDB, P2P, full/mining node 시나리오)
+                  </li>
+                  <li>
+                    <strong>써핑</strong>: 검색엔진 활용 기능 학습용 게임형 교육
+                    서비스 (OpenAI API 기반 유사도 채점 고도화)
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section" id="cv">
+          <h2>CV</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Education</h3>
+              <ul>
+                <li>
+                  <strong>Myongji University</strong>, M.S. in Applied
+                  Artificial Intelligence (Sep. 2024 - Current)<br />Advisor:
+                  Jaehee Jung
+                </li>
+                <li>
+                  <strong>Myongji University</strong>, B.S. in Information and
+                  Communication Engineering (Mar. 2019 - Aug. 2024)
+                </li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Awards & Honors</h3>
+              <ul>
+                <li>석사우수장학금(이공계) (₩5,000,000), 2025-2026</li>
+                <li>우수신입장학금, 2024-2026</li>
+                <li>백마성적장학금 1종(전액), 2022-2024</li>
+                <li>정보과학회 학부생 부문 장려상, 2023</li>
+                <li>명지대 SW 경진대회 대상, 2023</li>
+                <li>GDSC Solution Challenge Top 100, 2023</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Publications</h2>
+          <h3>Conference Papers</h3>
+          <ol class="pub-list">
+            <li>
+              J. Kim, C. Heo, J. Jung, "ReCDAP: Relation-based Conditional
+              Diffusion with Attention Pooling for Few-Shot Knowledge Graph
+              Completion", <strong>SIGIR</strong>, 2025.<span
+                class="venue-chip major"
+                >Top-tier</span
+              >
+            </li>
+            <li>
+              J. Kim, J. Jung, "The recommendation systems based on the
+              enhancement of the implicit and explicit sampling", ICNGC, 2024.
+            </li>
+            <li>
+              J. Kim, J. Jung, "Deep Graph Attention Networks 구조의 분류 성능
+              향상을 위한 모델", 2024 한국정보과학회, 2024.
+            </li>
+            <li>
+              J. Kim, J. Jung, "레이블 없는 운동 이미지를 활용한 비지도 분류
+              모델과 운동 동작 인식 방법", 2023 한국정보과학회, 2023.
+            </li>
+          </ol>
+
+          <h3>Journal Paper</h3>
+          <ol class="pub-list">
+            <li>
+              T.T.D. Vu, J. Kim, J. Jung, "An experimental analysis of graph
+              representation learning for Gene Ontology based protein function
+              prediction," PeerJ, 2024.
+            </li>
+          </ol>
+
+          <h3>Preprints / Submissions</h3>
+          <ol class="pub-list">
+            <li>
+              J. Kim, H. Kwon, J. Jung, "Anchor-based Inductive Embedding of
+              Structurally Unobserved Entities in Knowledge Graphs for Drug
+              Discovery", <strong>Bioinformatics</strong>, 2025.<span
+                class="venue-chip journal"
+                >Journal</span
+              ><span class="venue-chip submission">Submission</span>
+            </li>
+            <li>
+              H. Kwon, J. Kim, J. Jung, "GLANCE: Pair-Level Fusion within
+              Multi-View Representations for Cold-Start Drug-Target Interaction
+              Prediction on Knowledge Graphs", <strong>IEEE JBHI</strong>,
+              2025.<span class="venue-chip journal">Journal</span
+              ><span class="venue-chip submission">Submission</span>
+            </li>
+          </ol>
+
+          <h3>Patent</h3>
+          <ol class="pub-list">
+            <li>
+              J. Jeong, J. Kim, "관계기반 조건부 확산 모델을 이용한 지식그래프
+              완성 방법 및 장치", Korean Patent, Filed No. 10-2025-0051880,
+              2025.
+            </li>
+          </ol>
+        </section>
+
+        <section class="section">
+          <h2>Activities & Certifications</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Extracurricular Activities</h3>
+              <ul>
+                <li>GDSC MJU 1기, Backend Part Core Member (2023)</li>
+                <li>Likelion MJU 11기 (2023)</li>
+                <li>SWYG 2기 (2022)</li>
+                <li>국방오픈소스아카데미 공개SW 온라인 해커톤 (2021)</li>
+                <li>
+                  국방통합데이터센터 1센터, (2020-2021)<br />정보보호병 - 보안
+                  및 체계 관제, Unix 기반 서버 관리 및 악성 공격 차단
+                </li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Certifications</h3>
+              <ul>
+                <li>리눅스 마스터 2급 (2017.09.22)</li>
+                <li>네트워크 관리사 2급 (2018.08.28)</li>
+              </ul>
+              <h3 style="margin-top: 14px">Reference Links</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://ds.mju.ac.kr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >DSLAB (Data Science Lab)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/hou27"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub (hou27)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://hou27.tistory.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+      </main>
+    </div>
+  </body>
+</html>
